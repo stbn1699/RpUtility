@@ -1,0 +1,25 @@
+.top-button{
+    border: none;
+    width: 10rem;
+}
+.top-button-active{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 3px;
+    width: 10rem;
+}
+.menu-selectChat{
+    background: linear-gradient(to bottom, #663300, #894500);
+    width: 20.25rem;
+    height: 100%;
+}
+.selectChatButton{
+    background: none;
+    border: none;
+}
+.profilePic{
+    height: 4rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}

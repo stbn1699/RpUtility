@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>RpUtility</title>
+	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<script src="../js/script.js"></script>
+</head>
+<body class="">
+
+<div class="content BGcolor-brown">
+	<div class="row h-100">
+		<div class="col-auto px-0">
+			<header class="header">
+				<button class="px-5 py-3 top-button-active BGcolor-brown Tcolor-white">
+					Messages
+				</button>
+				<button class="px-5 py-3 top-button BGcolor-brown Tcolor-white ml-auto" onclick="window.location.href = 'Roleplays.html';">
+					Roleplays
+				</button>
+			</header>
+			<div class="menu-selectChat">
+				<div class="row">
+					<button class="selectChatButton align-content-left" onclick="eba_visibilite('Lisa');console.log('afficher Lisa'); return false;">
+						<img src="../img/Lisa.jpg" alt="pp de lisa" class="profilePic">
+						<span class="name Tcolor-white">Lisa</span>
+					</button>
+				</div>
+				<div class="row">
+					<button class="selectChatButton" onclick="eba_visibilite('Emma');console.log('afficher Emma'); return false;">
+						<img src="../img/Emma.jpg" alt="pp de Emma" class="profilePic">
+						<span class="name Tcolor-white">Emma</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div id="Lisa" class="eba-visibilite-Element h-100" style="display: none">
+				<div class="row h-100">
+					<div class="col-5 px-0 h-100 BGcolor-Darkbrown">sd</div>
+					<div class="col-7 px-0 h-100 BGcolor-Darkerbrown">sdv</div>
+				</div>
+			</div>
+			<div id="Emma" class="eba-visibilite-Element h-100" style="display: none">
+				<div class="row h-100">
+					<div class="col-5 px-0 h-100 BGcolor-Darkbrown">zegrfsdv</div>
+					<div class="col-7 px-0 h-100 BGcolor-Darkerbrown">qsdfvsw</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<script>
+		Eba_Directive();/*sert a charger les pages html en directives au démarages*/
+	</script>
+</div>
+
+</body>
+</html>

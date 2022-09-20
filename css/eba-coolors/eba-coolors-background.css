@@ -1,0 +1,81 @@
+.BGcolor-black{
+    background-color: #000000 !important;
+}
+.BGcolor-black-10{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.BGcolor-black-20{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.BGcolor-black-30{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.BGcolor-black-40{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.BGcolor-black-50{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.BGcolor-black-60{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.BGcolor-black-70{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.BGcolor-black-80{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.BGcolor-black-90{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.BGcolor-darkerGrey{
+    background-color: #202020 !important;
+}
+.BGcolor-darkGrey{
+    background-color: #404040 !important;
+}
+.BGcolor-grey{
+    background-color: #808080 !important;
+}
+.BGcolor-lightGrey{
+    background-color: #a0a0a0 !important;
+}
+.BGcolor-lighterGrey{
+    background-color: #c0c0c0 !important;
+}
+.BGcolor-brokenWhite{
+    background-color: #f8f8f8 !important;
+}
+.BGcolor-white{
+    background-color: #ffffff !important;
+}
+.BGcolor-deepBlue{
+    background-color: #03045E !important;
+}
+.BGcolor-darkBlue{
+    background-color: #0077B6 !important;
+}
+.BGcolor-blue{
+    background-color: #00B4D8 !important;
+}
+.BGcolor-lightBlue{
+    background-color: #90E0EF !important;
+}
+.BGcolor-heavenBlue{
+    background-color: #CAF0F8 !important;
+}
+.BGcolor-Lightbrown{
+    background-color: #9C4E00;
+}
+.BGcolor-brown{
+    background-color: #844100;
+}
+.BGcolor-Darkbrown{
+    background-color: #663300;
+}
+.BGcolor-Darkerbrown{
+    background-color: #512800;
+}
+.BGcolor-EvenDarkerbrown{
+    background-color: #422100;
+}
