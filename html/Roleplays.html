@@ -1,27 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<title>RpUtility</title>
 	<link rel="stylesheet" type="text/css" href="../css/master.css">
 	<script src="../js/script.js"></script>
+	<script src="../js/minigames.js"></script>
 </head>
 <body class="">
 
 <div class="content BGcolor-brown">
-	
-	<header class="">
-		<button class="py-3 top-button BGcolor-brown Tcolor-white" onclick="window.location.href = 'Messages.html';">
-			Messages
-		</button>
-		<button class="py-3 top-button-active BGcolor-brown Tcolor-white ml-auto">
-			Roleplays
-		</button>
-	</header>
-	
-	<div class="menu-selectChat">
-	
+	<div class="row h-100">
+		<div class="col-auto px-0">
+			<header class="header">
+				<button class="px-5 py-3 top-button BGcolor-brown Tcolor-white" onclick="window.location.href = 'Messages.html';">
+					Messages
+				</button>
+				<button class="px-5 py-3 top-button-active BGcolor-brown Tcolor-white ml-auto">
+					Roleplays
+				</button>
+			</header>
+			<div class="menu-selectChat">
+				<div class="row">
+					<button class="selectRpChatButton" onclick="eba_visibilite('Rachel and Thibaud');console.log('afficher Lisa'); return false;">
+						<span class="RPname Tcolor-white">Rachel and Thibaud</span>
+					</button>
+				</div>
+				<div class="row">
+					<button class="selectRpChatButton" onclick="eba_visibilite('Eliot and Kira');console.log('afficher Emma'); return false;">
+						<span class="RPname Tcolor-white">Eliot and Kira</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div id="Rachel and Thibaud" class="eba-visibilite-Element h-100" style="display: none" eba-directive="RpChat.html"></div>
+			<div id="Eliot and Kira" class="eba-visibilite-Element h-100" style="display: none" eba-directive="RpChat.html"></div>
+		</div>
 	</div>
+	
+	
 	
 	<script>
 		Eba_Directive();/*sert a charger les pages html en directives au démarages*/

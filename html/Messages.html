@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
 	<meta charset="UTF-8">
 	<title>RpUtility</title>
@@ -21,32 +21,22 @@
 			</header>
 			<div class="menu-selectChat">
 				<div class="row">
-					<button class="selectChatButton align-content-left" onclick="eba_visibilite('Lisa');console.log('afficher Lisa'); return false;">
+					<div class="selectChatButton" onclick="eba_visibilite('Lisa');console.log('afficher Lisa'); return false;">
 						<img src="../img/Lisa.jpg" alt="pp de lisa" class="profilePic">
 						<span class="name Tcolor-white">Lisa</span>
-					</button>
+					</div>
 				</div>
 				<div class="row">
-					<button class="selectChatButton" onclick="eba_visibilite('Emma');console.log('afficher Emma'); return false;">
+					<div class="selectChatButton" onclick="eba_visibilite('Emma');console.log('afficher Emma'); return false;">
 						<img src="../img/Emma.jpg" alt="pp de Emma" class="profilePic">
 						<span class="name Tcolor-white">Emma</span>
-					</button>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="col">
-			<div id="Lisa" class="eba-visibilite-Element h-100" style="display: none">
-				<div class="row h-100">
-					<div class="col-5 px-0 h-100 BGcolor-Darkbrown">sd</div>
-					<div class="col-7 px-0 h-100 BGcolor-Darkerbrown">sdv</div>
-				</div>
-			</div>
-			<div id="Emma" class="eba-visibilite-Element h-100" style="display: none">
-				<div class="row h-100">
-					<div class="col-5 px-0 h-100 BGcolor-Darkbrown">zegrfsdv</div>
-					<div class="col-7 px-0 h-100 BGcolor-Darkerbrown">qsdfvsw</div>
-				</div>
-			</div>
+			<div id="Lisa" class="eba-visibilite-Element h-100" style="display: none" eba-directive="Chat.html"></div>
+			<div id="Emma" class="eba-visibilite-Element h-100" style="display: none" eba-directive="Chat.html"></div>
 		</div>
 	</div>
 	

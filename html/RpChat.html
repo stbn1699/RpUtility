@@ -1,0 +1,90 @@
+<div class="row h-100">
+	<div class="col-5 px-0 h-100 BGcolor-Darkbrown">
+		
+		<div class="chat">
+			<div class="chatDataAllign"></div>
+			<div class="chatData">Chat de type "role play"</div>
+			<div class="chatDataAllign"></div>
+		</div>
+		
+		<div class="chatInputDiv">
+			<input class="chatInput" type="text" placeholder="Message...">
+		</div>
+	
+	</div>
+	<div class="col-7 px-0 h-100 BGcolor-Darkerbrown">
+		<div class="row">
+			<div class="randomDice col-5 BGcolor-brown">
+				<div class="row">
+					<div class="TitleTop Tcolor-white">Random Generator</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-6">
+						<div class="DiceTitleBottom Tcolor-white">Nombre<br>de Faces</div>
+					</div>
+					<div class="col-6">
+						<div class="DiceTitleBottom resultatDice Tcolor-white">Résultat</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-6">
+						<input class="diceInput" type="number" id="DiceInput">
+					</div>
+					<div class="col-6">
+						<input class="diceInput" type="number" id="DiceOutput" disabled>
+					</div>
+				</div>
+				
+				<div class="row">
+					<button class="diceButton" onclick="RollDice(document.getElementById('DiceInput').value)">Lancer le Dé</button>
+				</div>
+			
+			</div>
+			<div class="Chifoumi col BGcolor-brown">
+				<div class="row">
+					<div class="TitleTop Tcolor-white">Shifumi</div>
+				</div>
+				
+				<div class="row mt-1">
+					<div class="col-5">
+						<div class="ChifoumiTitleBottom Tcolor-white">Signe choisi</div>
+					</div>
+					<div class="col-5">
+						<select class="ChifoumiSelect" id="ChifoumiInput">
+							<option value="0"></option>
+							<option value="1">pierre</option>
+							<option value="2">papier</option>
+							<option value="3">ciseaux</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="row mt-1">
+					<div class="col-5">
+						<div class="ChifoumiTitleBottom Tcolor-white">Signe adverse</div>
+					</div>
+					<div class="col-5">
+						<select class="ChifoumiSelect" id="ChifoumiOutput" disabled>
+							<option value="0"></option>
+							<option value="1">pierre</option>
+							<option value="2">papier</option>
+							<option value="3">ciseaux</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="resultatChifoumi Tcolor-lighterGrey mt-4 mb-4" id="ResultatChifoumi">
+					lancez le jeu...
+				</div>
+				
+				<div class="row">
+					<button class="diceButton" id="button" onclick="chifoumi(document.getElementById('ChifoumiInput').value)">soumettre</button>
+				</div>
+			
+			</div>
+		</div>
+	
+	</div>
+</div>

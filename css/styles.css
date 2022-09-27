@@ -11,15 +11,120 @@
 }
 .menu-selectChat{
     background: linear-gradient(to bottom, #663300, #894500);
-    width: 20.25rem;
+    width: 20.28rem;
     height: 100%;
 }
 .selectChatButton{
     background: none;
     border: none;
+    width: 21.05rem;
+}
+.selectChatButton:hover{
+    cursor: crosshair;
+    background: rgba(255, 255, 255, 0.1);
+}
+.selectRpChatButton{
+    background: none;
+    border: none;
+    width: 21.05rem;
+    height: 4rem;
+}
+.selectRpChatButton:hover{
+    cursor: crosshair;
+    background: rgba(255, 255, 255, 0.1);
 }
 .profilePic{
     height: 4rem;
-    margin: 1rem;
+    margin: 1rem 1rem 1rem 2rem;
     border-radius: 2rem;
+}
+.chat{
+    height: 85%;
+}
+.chatInputDiv{
+    height: 15%;
+}
+.chatInput{
+    margin: 1.5rem 5% 0 5%;
+    border: none;
+    background-color: #A15304;
+    width: 90%;
+    height: 3rem;
+    border-radius: 1.75rem;
+    padding: 1rem;
+}
+.RPname{
+    font-family: Elephant, serif;
+}
+.randomDice{
+    margin-left: 0.7rem;
+    border: #512800 solid 1px;
+}
+.Chifoumi{
+    border: #512800 1px solid;
+ }
+.TitleTop{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.DiceTitleBottom{
+    text-align: center;
+    vertical-align: center;
+}
+.ChifoumiTitleBottom{
+    text-align: center;
+    vertical-align: center;
+}
+.resultatDice{
+    margin-top: 0.75rem;
+}
+.diceInput{
+    margin: 1rem 25%;
+    width: 50%;
+    height: 3rem;
+    background-color: #512800;
+    border: none;
+    display: flex;
+    -webkit-appearance: none;
+    text-align: center;
+    color: white;
+}
+input:focus {
+    outline: none;
+}
+.diceButton{
+    margin-bottom: 1rem;
+    background: #512800;
+    border: solid 1px black;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 3rem;
+    border-radius: 2rem;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.ChifoumiSelect {
+    width: 120%;
+    background-color: #512800;
+    border: none;
+    display: flex;
+    -webkit-appearance: none;
+    text-align: center;
+    color: white;
+}
+.chatData{
+    text-align: center;
+    height: 10%;
+}
+.chatDataAllign{
+    height: 45%;
+}
+.resultatChifoumi{
+    text-align: center;
 }
